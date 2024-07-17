@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,7 +35,39 @@
 
     </header>
     <!--Main-->
-    <main></main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" action="https://formdump.codeinstitute.net" method="POST">
+                <heading><i class="fa-solid fa-heart-pulse"></i>Let's get you signed up!</heading>
+                <br>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" required>
+                <br>
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" required>
+                <br>
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="email" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <input type="radio" id="road" value="road" name="running-preference" checked>
+                        <label for="running-preference">Road</label>
+                    </div>
+                    <div><input type="radio" id="trail" value="trail" name="running-preference">
+                        <label for="running-preference">Trail</label></div>
+                    <div><input type="radio" id="both" value="both" name="running-preference">
+                        <label for="running-preference">Both</label></div>
+
+
+                </div>
+
+                <input type="submit" value="Let's Run!" class="join-button">
+
+            </form>
+
+        </section>
+    </main>
     <!--Footer-->
     <footer>
         <ul id="social-networks">
